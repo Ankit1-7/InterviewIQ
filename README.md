@@ -1,5 +1,7 @@
 # InterviewIQ 🚀
 
+🔗 **Live Deployment**: [https://interview-6vmwj5n74-ankit-yadav.vercel.app/](https://interview-6vmwj5n74-ankit-yadav.vercel.app/)
+
 InterviewIQ is an advanced AI-powered mock interview web application built on the MERN stack. It conducts realistic, conversational voice interviews, parses resumes, provides detailed performance reports, and features an integrated credit-based billing system.
 
 ---
@@ -122,6 +124,10 @@ npm run dev
 ---
 
 ## 🚀 Deployment Overview
+
+The application is deployed live:
+* **Frontend**: [https://interview-6vmwj5n74-ankit-yadav.vercel.app/](https://interview-6vmwj5n74-ankit-yadav.vercel.app/) (Hosted on Vercel)
+* **Backend**: Deployed on Render/Railway.
 
 The codebase is fully optimized for cross-origin deployment:
 * **Frontend** can be hosted on **Vercel** or **Netlify** (Root folder: `client`).

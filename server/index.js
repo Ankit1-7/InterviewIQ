@@ -10,8 +10,12 @@ import interviewRouter from "./routes/interview.route.js"
 import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
+const frontendOrigin = process.env.FRONTEND_URL 
+    ? process.env.FRONTEND_URL.replace(/\/$/, "") 
+    : "http://localhost:5173";
+
 app.use(cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: frontendOrigin,
     credentials:true
 }))
 
