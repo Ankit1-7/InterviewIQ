@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production/build outputs
+client/dist/
+dist/
+
+# Environment files
+.env
+client/.env
+server/.env
+.env.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
